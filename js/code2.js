@@ -1,2 +1,2 @@
 const z = 9;
-console.log(z);
+console.log(z + 3);
