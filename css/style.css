@@ -2,7 +2,15 @@
   box-sizing: border-box;
 }
 
+body {
+  padding: 1rem;
+}
+
 header {
   background-color: brown;
   color: bisque;
+}
+
+section {
+  border: 1px solid;
 }
