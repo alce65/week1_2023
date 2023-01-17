@@ -14,3 +14,7 @@ header {
 section {
   border: 1px solid;
 }
+
+.section {
+  margin: 1rem;
+}
