@@ -1,10 +1,14 @@
+:root {
+  --primary-color: rgb(147, 37, 37);
+}
+
 * {
   box-sizing: border-box;
 }
 
 /* Selector de etiqueta */
 h1 {
-  color: brown;
+  color: var(--primary-color);
 }
 
 header,
@@ -47,6 +51,7 @@ header > p {
 /* Hermanos */
 #p1 ~ p {
   background-color: blue;
+  border: 1px solid peru;
 }
 
 /* Adyacentes */
@@ -64,4 +69,16 @@ article:hover {
 
 article::before {
   content: "🎯";
+}
+
+ltr rtl .foo {
+  direction: rtl;
+  padding-block-start: 2rem;
+  padding-block-end: 1rem;
+  padding-inline-start: 3rem;
+  padding-inline-end: 2rem;
+}
+
+bar {
+  padding: initial 2rem;
 }

@@ -4,7 +4,9 @@
   "description": "Ejercicios semana 1 . Bootcamp Madrid",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "sass": "sass day5/sass:day5/css -w --no-source-map",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/alce65/week1_2023/issues"
   },
-  "homepage": "https://github.com/alce65/week1_2023#readme"
+  "homepage": "https://github.com/alce65/week1_2023#readme",
+  "devDependencies": {
+    "sass": "^1.57.1",
+    "husky": "^8.0.0"
+  }
 }
