@@ -1,0 +1,62 @@
+$primary-color: chocolate;
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  &__title {
+    color: $primary-color;
+  }
+}
+
+.nav {
+  background-color: bisque;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+
+  &:hover {
+    &__item {
+    }
+  }
+
+  &--small {
+  }
+
+  &__item {
+    padding: 0;
+
+    &--spread {
+      padding: 1rem;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.foo {
+  &.is-visible {
+    color: aqua;
+  }
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  display: none;
+}
+
+figure:hover figcaption {
+  display: initial;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}

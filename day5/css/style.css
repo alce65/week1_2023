@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.header__title {
+  color: chocolate;
+}
+
+.nav {
+  background-color: bisque;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+.nav__item {
+  padding: 0;
+}
+.nav__item--spread {
+  padding: 1rem;
+}
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.foo.is-visible {
+  color: aqua;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  display: none;
+}
+
+figure:hover figcaption {
+  display: initial;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
